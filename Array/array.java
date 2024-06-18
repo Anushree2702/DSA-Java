@@ -21,6 +21,8 @@ public class array {
         }
 
         System.out.println(Arrays.toString(arr2));
+
+        
         for (int i = 0; i < arr2.length; i++) {
             System.out.print(arr2[i]+" ");
             
