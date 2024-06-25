@@ -14,6 +14,10 @@ public class second_largest_second_smallest {
                 smax=fmax;
                 fmax=arr[i];
             }
+             else if(arr[i]!=fsmall && arr[i]<ssmall )
+            {
+                ssmall=arr[i];
+            }
             
         }
         System.out.println("first largest number is :"+ fmax);
