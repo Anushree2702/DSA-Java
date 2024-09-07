@@ -28,6 +28,10 @@ public class bubble_sort {
                 }
 
             }
+            if(!swapped)
+            {
+                break;
+                    }
         }
     }
     
