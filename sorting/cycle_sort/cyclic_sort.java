@@ -9,7 +9,8 @@ public class cyclic_sort {
         int i=0;
         while(i<nums.length)
         {
-            int correct=nums[i]-1;
+            //int correct=nums[i]-1;                 //if range is from 1 to n
+            int correct=nums[i];                   //if range is from 0 to n
             if( nums[i]!=nums[correct])
             {
                 int temp=nums[i];
