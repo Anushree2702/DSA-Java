@@ -1,9 +1,10 @@
-Strings in Java
+<h1>Strings in Java</h1>
 **1. String Overview
 
-Definition: String is a class in Java that represents a sequence of characters.
+<h3>Definition:</h3> String is a class in Java that represents a sequence of characters.
 Immutable: Strings are immutable in Java, meaning once a String object is created, it cannot be changed. Any modification results in the creation of a new String object.
-**2. Creating Strings
+<h3>
+**2. Creating Strings</h3>
 
 Literal: String str = "Hello";
 Constructor: String str = new String("Hello");
@@ -24,7 +25,8 @@ Split: str.split("delimiter") - Splits the string into an array based on the del
 Equals: str1.equals(str2) - Checks if two strings are equal.
 EqualsIgnoreCase: str1.equalsIgnoreCase(str2) - Checks equality ignoring case.
 CompareTo: str1.compareTo(str2) - Compares two strings lexicographically.
-**5. String Pool
+<h3>
+**5. String Pool</h3>
 
 Interning: Strings created with literals are stored in a common pool (interned). Using new String("literal") creates a new object, bypassing the pool.
 **6. StringBuilder and StringBuffer
@@ -53,8 +55,9 @@ Pattern pattern = Pattern.compile("regex");
 Matcher matcher = pattern.matcher("input");
 boolean matches = matcher.matches();
 
-
+<h2>
 Sample Questions
+</h2>
 How do you create a String in Java?
 
 You can create a String using a string literal (e.g., String str = "Hello";) or a String constructor (e.g., String str = new String("Hello");).
@@ -76,7 +79,7 @@ Immutability provides safety and thread-safety. It ensures that once a String ob
 Feel free to expand these notes based on your interview focus and your own understanding. Good luck!
 
 
-In Java, the == operator is used for comparison, but its behavior varies depending on the type of operands it is comparing. Here’s a detailed explanation of how == works with different data types:
+In Java,<h1> the == operator</h1> is used for comparison, but its behavior varies depending on the type of operands it is comparing. Here’s a detailed explanation of how == works with different data types:
 
 1. Primitive Types
 For primitive data types (such as int, float, char, etc.), the == operator compares the actual values directly.
