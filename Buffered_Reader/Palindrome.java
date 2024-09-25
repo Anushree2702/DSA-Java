@@ -10,6 +10,8 @@ import java.lang.*;
       {
         public static void main(String[] args)
         {
+
+            
           try
             {
                 System.out.println("enter a string or a number");
