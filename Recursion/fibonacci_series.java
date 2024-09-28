@@ -1,3 +1,8 @@
+/*Time Complexity:
+Time Complexity: O(2^n)
+This is because the number of calls doubles at each level of recursion.
+Space Complexity: O(n) (due to the recursion depth of n, where n is the input number).*/
+
 package Recursion;
 
 public class fibonacci_series {
