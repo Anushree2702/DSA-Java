@@ -1,5 +1,5 @@
 <h1>Strings in Java</h1>
-**1. String Overview**
+1. String Overview
 
 <h3>Definition:</h3> String is a class in Java that represents a sequence of characters.
 Immutable: Strings are immutable in Java, meaning once a String object is created, it cannot be changed. Any modification results in the creation of a new String object.
